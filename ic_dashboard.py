@@ -103,7 +103,7 @@ st.plotly_chart(fig, use_container_width=True)
 # Sensitivity Heatmap
 st.subheader("📊 Sensitivity Analysis")
 cap_rates_exit = [0.0625, 0.0675, 0.0725]
-rent_growth_rates = [0.0%, 0.015, 0.003]
+rent_growth_rates = [0.0, 0.015, 0.003]
 records = []
 for g in rent_growth_rates:
     for ce in cap_rates_exit:
